@@ -1,6 +1,6 @@
-from lib import promptlog_global
+from lib import promptlog_global, promptlog_local
 
-promptlog_global()
+promptlog_global(context_window=2)
 
 
 # @promptlog_local(context_window=5, mask_secrets=True)
