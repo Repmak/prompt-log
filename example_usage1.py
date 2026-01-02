@@ -1,4 +1,4 @@
-from promptable_log import catch
+from promptable_traceback import catch
 
 
 @catch(context_window=5, mask_secrets=True)

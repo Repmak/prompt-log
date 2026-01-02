@@ -1,4 +1,4 @@
-from promptable_log import hook
+from promptable_traceback import hook
 
 hook(context_window=2)
 

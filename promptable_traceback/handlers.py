@@ -7,6 +7,8 @@ import os
 from .core import get_code_context, get_file_context, serialise_state
 
 
+# todo: imported package versions, print obj instances by value rather than reference
+
 # Enables Windows terminal to support ANSI codes.
 # if platform.system() == "Windows":
 #     os.system('')
