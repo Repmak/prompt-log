@@ -1,16 +1,16 @@
-# PromptableTraceback
+# Promptable Traceback
 
 
 ## Overview
 
-PromptableTraceback is a lightweight Python debugging library designed to optimise AI-assisted coding.
+Promptable Traceback is a lightweight Python debugging library designed to optimise AI-assisted coding.
 
 **Why use it?** When code fails, you typically spend a couple minutes gathering relevant lines of code, checking variable states, and copying the traceback into an LLM to help you debug. This library automates that process by capturing the "state of the world" at the exact moment of failure and formatting it into a clean, LLM-ready report.
 
 
 ## Installation
 
-Install PromptableTraceback via `pip` from [PyPI](https://pypi.org/project/promptable-traceback/):
+Install Promptable Traceback via `pip` from [PyPI](https://pypi.org/project/promptable-traceback/):
 
 ```bash
 pip install promptable-traceback
